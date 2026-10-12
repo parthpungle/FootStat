@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Local datasets (keep folder placeholders)
+backend/data/raw/*
+backend/data/processed/*
+!backend/data/raw/.gitkeep
+!backend/data/processed/.gitkeep
+
+# Generated artifacts (trained models, etc.)
+backend/artifacts/*
+!backend/artifacts/.gitkeep
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
